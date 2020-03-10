@@ -1,0 +1,33 @@
+.navbar {
+  padding: rem-calc(42) rem-calc(68);
+  display: flex;
+}
+
+.navbar__left {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__right {
+  margin-left: auto;
+  display: flex;
+}
+
+.navbar__brand {
+  margin-right: rem-calc(60);
+}
+
+.navbar__brand-img {
+  display: block;
+}
+
+.navbar-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu__item {
+  list-style: none;
+}

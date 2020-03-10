@@ -1,0 +1,5 @@
+@each $key, $val in $foundation-palette {
+  .color-#{$key} {
+    color: $val !important;
+  }
+}
